@@ -1,10 +1,11 @@
 /*
   MODULE 4 Solution
+  SpeakGoodBye javascript code
   author: Sayed Abdullah Qutb
   date: 20/03/2020
   version: 1.0
  */
- 
+
 // STEP 6: Wrap the entire contents of SpeakGoodBye.js inside of an IIFE
 
 // STEP 7: Create an object, called 'byeSpeaker' to which you will attach
