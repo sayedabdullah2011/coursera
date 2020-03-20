@@ -1,0 +1,95 @@
+/*
+	Module 2 Submission
+	author: Sayed Abdullah Qutb;
+	date: 20/03/2020;
+	version: 1.1;
+ */
+
+/* Border box, not content box*/
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family: 'Lato', sans-serif;  
+}
+
+.row {
+  width: 100%;
+}
+
+.menu-title{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.container{
+ position: relative;
+ top:60px;
+ margin: 15px; 
+}
+
+#samsa {
+	background-color: cyan;
+}
+#samsa:hover {
+	background-color: #23EF14;
+}
+#sister:hover , #father:hover {
+	background-color: red;
+}
+#sister {
+	background-color: yellow;
+	color: black;
+}
+#father {
+	color: green;
+	background-color: pink;
+}
+
+.item{
+  position: relative;
+  top:0;
+  right: 0px;
+  background: #B4ECD2;
+  margin: 15px;
+  padding: 25px;
+  border: 3px solid #000;
+}
+
+.details {
+  margin-top: 18px;
+  text-align: justify;
+  font-size:100%;
+}
+
+.item-title{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding: 6px 90px;
+  border-left: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
+
+
+@media (min-width: 992px) {
+	.col-lg-4 {
+		float: left;
+		width: 33.33%
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6, .col-md-12 {
+	    float: left;
+  	}
+  	.col-md-6 {
+	    width: 50%;
+  	}
+  	.col-md-12 {
+  		width: 100%;
+  	}
+}
